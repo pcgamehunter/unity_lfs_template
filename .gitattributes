@@ -1,0 +1,94 @@
+# Git Attributes designed for LFS in Unity 2021.3
+
+# Sets end-of-line normalization for text files
+* text=auto
+
+*.cs diff=csharp text
+*.cginc text
+*.shader text
+
+# Unity files
+*.meta -text merge=unityyamlmerge diff lockable
+*.unity -text merge=unityyamlmerge diff lockable
+*.asset -text merge=unityyamlmerge diff lockable
+*.prefab -text merge=unityyamlmerge diff lockable
+*.mat -text merge=unityyamlmerge diff lockable
+*.anim -text merge=unityyamlmerge diff lockable
+*.controller -text merge=unityyamlmerge diff lockable
+*.overrideController -text merge=unityyamlmerge diff lockable
+*.physicMaterial -text merge=unityyamlmerge diff lockable
+*.physicsMaterial2D -text merge=unityyamlmerge diff lockable
+*.playable -text merge=unityyamlmerge diff lockable
+*.mask -text merge=unityyamlmerge diff lockable
+*.brush -text merge=unityyamlmerge diff lockable
+*.flare -text merge=unityyamlmerge diff lockable
+*.fontsettings -text merge=unityyamlmerge diff lockable
+*.guiskin -text merge=unityyamlmerge diff lockable
+*.giparams -text merge=unityyamlmerge diff lockable
+*.renderTexture -text merge=unityyamlmerge diff lockable
+*.spriteatlas -text merge=unityyamlmerge diff lockable
+*.terrainlayer -text merge=unityyamlmerge diff lockable
+*.mixer -text merge=unityyamlmerge diff lockable
+*.shadervariants -text merge=unityyamlmerge diff lockable
+
+# Build
+*.dll filter=lfs diff=lfs merge=lfs lockable -text 
+*.pdb filter=lfs diff=lfs merge=lfs lockable -text 
+*.mdb filter=lfs diff=lfs merge=lfs lockable -text 
+
+# Image formats
+*.psd filter=lfs diff=lfs merge=lfs lockable -text 
+*.jpg filter=lfs diff=lfs merge=lfs lockable -text 
+*.png filter=lfs diff=lfs merge=lfs lockable -text 
+*.gif filter=lfs diff=lfs merge=lfs lockable -text 
+*.bmp filter=lfs diff=lfs merge=lfs lockable -text 
+*.tga filter=lfs diff=lfs merge=lfs lockable -text 
+*.tiff filter=lfs diff=lfs merge=lfs lockable -text 
+*.tif filter=lfs diff=lfs merge=lfs lockable -text 
+*.iff filter=lfs diff=lfs merge=lfs lockable -text 
+*.pict filter=lfs diff=lfs merge=lfs lockable -text 
+*.dds filter=lfs diff=lfs merge=lfs lockable -text 
+*.xcf filter=lfs diff=lfs merge=lfs lockable -text 
+
+# Audio formats
+*.mp3 filter=lfs diff=lfs merge=lfs lockable -text 
+*.ogg filter=lfs diff=lfs merge=lfs lockable -text 
+*.wav filter=lfs diff=lfs merge=lfs lockable -text 
+*.aiff filter=lfs diff=lfs merge=lfs lockable -text 
+*.aif filter=lfs diff=lfs merge=lfs lockable -text 
+*.mod filter=lfs diff=lfs merge=lfs lockable -text 
+*.it filter=lfs diff=lfs merge=lfs lockable -text 
+*.s3m filter=lfs diff=lfs merge=lfs lockable -text 
+*.xm filter=lfs diff=lfs merge=lfs lockable -text 
+*.flac filter=lfs diff=lfs merge=lfs lockable -text 
+
+# Video formats
+*.mov filter=lfs diff=lfs merge=lfs lockable -text 
+*.avi filter=lfs diff=lfs merge=lfs lockable -text 
+*.asf filter=lfs diff=lfs merge=lfs lockable -text 
+*.mpg filter=lfs diff=lfs merge=lfs lockable -text 
+*.mpeg filter=lfs diff=lfs merge=lfs lockable -text 
+*.mp4 filter=lfs diff=lfs merge=lfs lockable -text 
+
+# 3D formats
+*.fbx filter=lfs diff=lfs merge=lfs lockable -text 
+*.obj filter=lfs diff=lfs merge=lfs lockable -text 
+*.max filter=lfs diff=lfs merge=lfs lockable -text 
+*.blend filter=lfs diff=lfs merge=lfs lockable -text 
+*.dae filter=lfs diff=lfs merge=lfs lockable -text 
+*.mb filter=lfs diff=lfs merge=lfs lockable -text 
+*.ma filter=lfs diff=lfs merge=lfs lockable -text 
+*.3ds filter=lfs diff=lfs merge=lfs lockable -text 
+*.dfx filter=lfs diff=lfs merge=lfs lockable -text 
+*.c4d filter=lfs diff=lfs merge=lfs lockable -text 
+*.lwo filter=lfs diff=lfs merge=lfs lockable -text 
+*.lwo2 filter=lfs diff=lfs merge=lfs lockable -text 
+*.abc filter=lfs diff=lfs merge=lfs lockable -text 
+*.3dm filter=lfs diff=lfs merge=lfs lockable -text 
+
+# Archives
+*.zip filter=lfs diff=lfs merge=lfs lockable -text 
+*.7z filter=lfs diff=lfs merge=lfs lockable -text 
+*.gz filter=lfs diff=lfs merge=lfs lockable -text 
+*.rar filter=lfs diff=lfs merge=lfs lockable -text 
+*.tar filter=lfs diff=lfs merge=lfs lockable -text 
